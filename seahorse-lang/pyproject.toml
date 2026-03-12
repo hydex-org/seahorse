@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seahorse-lang"                # PyPI name (must be unique if publishing)
+version = "0.0.1"
+description = "Seahorse lang python type stubs"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Morgan Metz", email = "morgan.metz@eyekon.xyz" }
+]
+dependencies = [
+  # "requests>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://hydex.io"
